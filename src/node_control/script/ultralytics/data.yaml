@@ -1,0 +1,13 @@
+train: /home/chen/catkin_ws/src/node_control/script/ultralytics/dataset/train/images
+val: /home/chen/catkin_ws/src/node_control/script/ultralytics/dataset/valid/images
+test: /home/chen/catkin_ws/src/node_control/script/ultralytics/dataset/test/images
+
+nc: 2
+names: ['front', 'reverse']
+
+roboflow:
+  workspace: public-o4sfo
+  project: electric_component
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/public-o4sfo/electric_component/3
