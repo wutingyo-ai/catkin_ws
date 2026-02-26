@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="eye_to_hand_calibration" type="Send_realsense_take.py" name="Send" output="screen" />
+    <node pkg="eye_to_hand_calibration" type="realsense_photo.py" name="Take_Photo" output="screen" /> 
+    <node pkg="eye_to_hand_calibration" type="Get_Flange_and_Tool_Pose.py" name="Pose" output="screen" /> 
+   
+</launch>
+
+
